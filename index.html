@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karri Manoj Subhash Reddy | Portfolio</title>
+  <style>
+    * {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #222;
+    }
+    header {
+      background-color: #9b1c31;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .buttons {
+      margin: 1.5rem 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+    .buttons button {
+      background-color: #fff;
+      color: #9b1c31;
+      border: 2px solid #9b1c31;
+      padding: 0.5rem 1rem;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .buttons button:hover {
+      background-color: #9b1c31;
+      color: white;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #9b1c31;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #9b1c31;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="C:\Users\DELL\Downloads\PHOTO.jpg" alt="Karri Manoj Subhash Reddy" />
+  <h1>Karri Manoj Subhash Reddy</h1>
+  <div class="buttons">
+    <button onclick="scrollToSection('education')">Education</button>
+    <button onclick="scrollToSection('skills')">Skills</button>
+    <button onclick="scrollToSection('projects')">Projects</button>
+    <button onclick="scrollToSection('achievements')">Achievements</button>
+    <button onclick="location.href='mailto:karrimanojsubhashreddy@gmail.com'">Email</button>
+    <button onclick="window.open('https://www.linkedin.com/in/karri-manoj-subhash-reddy-1b46a5245/', '_blank')">LinkedIn</button>
+    <button onclick="window.open('https://github.com/Subhashreddy1125', '_blank')">GitHub</button>
+    <a href="C:\Users\DELL\Downloads\Karri Manoj Subhash Reddy_9859966888.pdf" download>
+        <button>Download Resume</button>
+      </a>
+  </div>
+</header>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="card">
+    <strong>Sathyabama University</strong><br />
+    B.E. in CSE, CGPA: 9.13<br />
+    2021–2025, Chennai
+  </div>
+  <div class="card">
+    <strong>Sasi Junior College</strong><br />
+    MPC, 93.4%<br />
+    2019–2021, Mandapeta
+  </div>
+  <div class="card">
+    <strong>Bhashyam High School</strong><br />
+    GPA: 10<br />
+    2018–2019, Rayavaram
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="card">
+    <ul>
+      <li><strong>Languages:</strong> Python, Java</li>
+      <li><strong>Frameworks:</strong> NumPy, Pandas, Matplotlib</li>
+      <li><strong>Tools:</strong> Excel, Git & GitHub</li>
+      <li><strong>Platforms:</strong> AWS</li>
+      <li><strong>Databases:</strong> MySQL</li>
+      <li><strong>Tech:</strong> Cloud Computing, Data Science, DBMS</li>
+    </ul>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="card">
+    <ul>
+      <li><strong>Load Balancer on AWS:</strong> SSL, routing, scalable architecture</li>
+      <li><strong>Voice-Based Quiz App:</strong> HTML/CSS/JS + Speech Recognition</li>
+      <li><strong>Movie Recommendation System:</strong> Python + LightFM</li>
+      <li><strong>Library Management:</strong> Python + MySQL, automated reports</li>
+    </ul>
+  </div>
+</section>
+
+<section id="achievements">
+  <h2>Achievements & Certifications</h2>
+  <div class="card">
+    <ul>
+      <li>NPTEL – Data Structures (Elite)</li>
+      <li>NPTEL – DBMS (Elite)</li>
+      <li>Internship – Cloud Computing @ Advantage Pro</li>
+      <li>3rd Prize – Hackathon, Loyola College</li>
+      <li>Best Project – Sathyabama Startup Cell</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  © 2025 Karri Manoj Subhash Reddy
+</footer>
+
+<script>
+  function scrollToSection(id) {
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+  }
+</script>
+
+</body>
+</html>
